@@ -1,0 +1,12 @@
+---
+- include_tasks: install/epel.yml
+  tags: [install]
+- include_tasks: install/nginx.yml
+  tags: [install]
+- include_tasks: configure/nginx.yml
+  tags: [config]
+
+- include_tasks: install/lighthouse.yml
+  tags: [install]
+- include_tasks: configure/lighthouse.yml
+  tags: [config]

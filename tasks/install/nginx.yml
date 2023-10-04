@@ -1,0 +1,6 @@
+- name: NGINX | Install NGINX
+  become: true
+  ansible.builtin.yum:
+    name: nginx
+    state: present
+  notify: Start-nginx

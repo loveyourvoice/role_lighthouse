@@ -1,0 +1,25 @@
+galaxy_info:
+  role_name: lighthouse
+  author: Plotnikov Vladislav
+  description: This role copy lighthouse
+  company: netology
+
+  license: MIT
+
+  min_ansible_version: 2.8
+
+  platforms:
+    - name: Centos
+      versions:
+      - 7
+      - 8
+    - name: RHEL
+      versions:
+      - 7
+      - 8
+
+  galaxy_tags: 
+    - lighthouse
+    - nginx
+
+dependencies: []
